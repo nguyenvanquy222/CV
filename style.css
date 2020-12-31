@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background-color:  #fff;
+}
+
+.resume{
+	width: 800px;
+	background: #3E3D42;
+	margin: 25px auto;
+	display: flex;
+}
+
+.left{
+	background: #FFE09D;
+	width: 350px;
+	padding: 0 20px;
+}
+
+.right{
+	width: calc(100% - 250px);
+}
+.left .name{
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 25px;
+}
+.left .img_holder{
+	margin-top: 40px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.left .img_holder img{
+	width: 200px;
+	height: 220px;
+	border-radius: 30px;
+}
+
+.pb{
+	padding-bottom: 20px;
+}
+
+.title{
+	margin: 20px;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.left .icon{
+	font-size: 20px;
+	color: #FFFF47;
+}
+
+.left .text{
+	font-size: 15px;
+}
+.contact {
+	margin-bottom: 30px;
+}
+.contact .li_wrap{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.contact .li_wrap .icon{
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+
+.contact .li_wrap .text{
+	width: calc(100% - 50px);
+	word-break: break-word;
+	color: #3E3D42;
+}
+.left .hobbies_wrap .row{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.left .hobbies_wrap .row .hobbies{
+	margin-top: 10px;
+	margin-right: 70px;
+	text-align: center;
+}
+.left .hobbies_wrap .row .hobbies .hobbie{
+	margin-top: 10px;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.topic{
+	padding: 30px 0px 20px 20px;
+	
+}
+.topic .topic-header{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+}
+.topic .topic-title{
+	color: #FFFF47;
+	text-transform: uppercase;
+	float:left;
+	font-size: 30px;
+	font-weight: 400;
+	/* padding: 10px 200px 10px 80px; */
+}
+.topic .topic-content{
+	float:left;
+	font-size: 15px;
+	font-weight: 300;
+	position: static;	
+	color: white;
+	padding: 0px 20px 20px 10px;
+	display: flex;
+}
+.topic .topic-content .detail-content{
+	font-size: 13px;
+	font-weight: 300;
+	padding-left: 50px;
+	margin-bottom: 15px;
+}
+.topic .topic-content .detail-content .detail{
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.topic .topic-content .skills{
+	padding: 20px;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+}
+.topic .topic-content .skills .skill{
+	padding-top: 10px;
+	font-size: 15px;
+	font-weight: 300;
+	text-align: center;
+}
